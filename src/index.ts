@@ -19,8 +19,10 @@ async function inserUser(
     },
   });
 
-  log(res)
+  log(res);
 }
+
+inserUser("swapnil@gmail.com", "2345", "swapnil", "panchade");
 
 interface UpdateParams {
   firstName: string;
