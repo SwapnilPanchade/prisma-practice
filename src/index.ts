@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import { User } from "./generated/prisma/index";
 import { log } from "console";
 
 const prisma = new PrismaClient();
